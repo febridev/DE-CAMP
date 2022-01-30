@@ -1,0 +1,378 @@
+[2022-01-30 12:35:55,361] {processor.py:163} INFO - Started process (PID=1433) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:35:55,364] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:35:55,366] {logging_mixin.py:109} INFO - [2022-01-30 12:35:55,366] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:35:56,603] {logging_mixin.py:109} INFO - [2022-01-30 12:35:56,599] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:35:56,647] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:35:56,674] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.322 seconds
+[2022-01-30 12:36:26,871] {processor.py:163} INFO - Started process (PID=1461) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:36:26,874] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:36:26,876] {logging_mixin.py:109} INFO - [2022-01-30 12:36:26,876] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:36:28,265] {logging_mixin.py:109} INFO - [2022-01-30 12:36:28,262] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:36:28,302] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:36:28,330] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.467 seconds
+[2022-01-30 12:36:58,829] {processor.py:163} INFO - Started process (PID=1491) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:36:58,832] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:36:58,834] {logging_mixin.py:109} INFO - [2022-01-30 12:36:58,833] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:37:00,081] {logging_mixin.py:109} INFO - [2022-01-30 12:37:00,078] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:37:00,118] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:37:00,141] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.319 seconds
+[2022-01-30 12:37:30,726] {processor.py:163} INFO - Started process (PID=1520) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:37:30,729] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:37:30,730] {logging_mixin.py:109} INFO - [2022-01-30 12:37:30,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:37:32,172] {logging_mixin.py:109} INFO - [2022-01-30 12:37:32,169] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:37:32,256] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:37:32,296] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.577 seconds
+[2022-01-30 12:38:02,727] {processor.py:163} INFO - Started process (PID=1549) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:38:02,731] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:38:02,733] {logging_mixin.py:109} INFO - [2022-01-30 12:38:02,733] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:38:03,961] {logging_mixin.py:109} INFO - [2022-01-30 12:38:03,957] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:38:03,998] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:38:04,021] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.303 seconds
+[2022-01-30 12:38:34,353] {processor.py:163} INFO - Started process (PID=1579) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:38:34,357] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:38:34,359] {logging_mixin.py:109} INFO - [2022-01-30 12:38:34,358] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:38:35,552] {logging_mixin.py:109} INFO - [2022-01-30 12:38:35,548] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:38:35,590] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:38:35,617] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.273 seconds
+[2022-01-30 12:39:06,388] {processor.py:163} INFO - Started process (PID=1613) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:39:06,392] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:39:06,394] {logging_mixin.py:109} INFO - [2022-01-30 12:39:06,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:39:07,562] {logging_mixin.py:109} INFO - [2022-01-30 12:39:07,559] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:39:07,601] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:39:07,626] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.245 seconds
+[2022-01-30 12:39:37,951] {processor.py:163} INFO - Started process (PID=1642) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:39:37,954] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:39:37,956] {logging_mixin.py:109} INFO - [2022-01-30 12:39:37,955] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:39:39,236] {logging_mixin.py:109} INFO - [2022-01-30 12:39:39,233] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:39:39,277] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:39:39,301] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.356 seconds
+[2022-01-30 12:40:10,249] {processor.py:163} INFO - Started process (PID=1669) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:40:10,253] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:40:10,256] {logging_mixin.py:109} INFO - [2022-01-30 12:40:10,256] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:40:11,494] {logging_mixin.py:109} INFO - [2022-01-30 12:40:11,490] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:40:11,532] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:40:11,558] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.321 seconds
+[2022-01-30 12:40:41,821] {processor.py:163} INFO - Started process (PID=1698) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:40:41,824] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:40:41,826] {logging_mixin.py:109} INFO - [2022-01-30 12:40:41,826] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:40:42,976] {logging_mixin.py:109} INFO - [2022-01-30 12:40:42,972] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:40:43,014] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:40:43,038] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.226 seconds
+[2022-01-30 12:41:13,384] {processor.py:163} INFO - Started process (PID=1726) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:41:13,387] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:41:13,389] {logging_mixin.py:109} INFO - [2022-01-30 12:41:13,389] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:41:14,634] {logging_mixin.py:109} INFO - [2022-01-30 12:41:14,632] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:41:14,683] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:41:14,720] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.342 seconds
+[2022-01-30 12:41:44,971] {processor.py:163} INFO - Started process (PID=1755) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:41:44,975] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:41:44,977] {logging_mixin.py:109} INFO - [2022-01-30 12:41:44,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:41:46,184] {logging_mixin.py:109} INFO - [2022-01-30 12:41:46,182] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:41:46,221] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:41:46,245] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.281 seconds
+[2022-01-30 12:42:16,579] {processor.py:163} INFO - Started process (PID=1783) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:42:16,582] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:42:16,584] {logging_mixin.py:109} INFO - [2022-01-30 12:42:16,583] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:42:17,702] {logging_mixin.py:109} INFO - [2022-01-30 12:42:17,699] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:42:17,738] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:42:17,761] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.189 seconds
+[2022-01-30 12:42:48,244] {processor.py:163} INFO - Started process (PID=1813) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:42:48,247] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:42:48,249] {logging_mixin.py:109} INFO - [2022-01-30 12:42:48,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:42:49,484] {logging_mixin.py:109} INFO - [2022-01-30 12:42:49,480] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:42:49,528] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:42:49,551] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.314 seconds
+[2022-01-30 12:43:19,960] {processor.py:163} INFO - Started process (PID=1841) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:43:19,963] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:43:19,965] {logging_mixin.py:109} INFO - [2022-01-30 12:43:19,965] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:43:21,213] {logging_mixin.py:109} INFO - [2022-01-30 12:43:21,211] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:43:21,253] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:43:21,280] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.326 seconds
+[2022-01-30 12:43:51,756] {processor.py:163} INFO - Started process (PID=1869) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:43:51,760] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:43:51,763] {logging_mixin.py:109} INFO - [2022-01-30 12:43:51,762] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:43:53,283] {logging_mixin.py:109} INFO - [2022-01-30 12:43:53,279] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:43:53,324] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:43:53,348] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.601 seconds
+[2022-01-30 12:44:23,733] {processor.py:163} INFO - Started process (PID=1897) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:44:23,737] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:44:23,739] {logging_mixin.py:109} INFO - [2022-01-30 12:44:23,738] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:44:24,994] {logging_mixin.py:109} INFO - [2022-01-30 12:44:24,991] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:44:25,035] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:44:25,061] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.334 seconds
+[2022-01-30 12:44:55,440] {processor.py:163} INFO - Started process (PID=1926) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:44:55,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:44:55,444] {logging_mixin.py:109} INFO - [2022-01-30 12:44:55,444] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:44:56,615] {logging_mixin.py:109} INFO - [2022-01-30 12:44:56,612] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:44:56,660] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:44:56,687] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.254 seconds
+[2022-01-30 12:45:27,013] {processor.py:163} INFO - Started process (PID=1954) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:45:27,016] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:45:27,018] {logging_mixin.py:109} INFO - [2022-01-30 12:45:27,017] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:45:28,296] {logging_mixin.py:109} INFO - [2022-01-30 12:45:28,293] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:45:28,332] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:45:28,355] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.350 seconds
+[2022-01-30 12:45:58,970] {processor.py:163} INFO - Started process (PID=1982) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:45:58,975] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:45:58,977] {logging_mixin.py:109} INFO - [2022-01-30 12:45:58,976] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:46:00,253] {logging_mixin.py:109} INFO - [2022-01-30 12:46:00,250] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:46:00,290] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:46:00,311] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.349 seconds
+[2022-01-30 12:46:30,631] {processor.py:163} INFO - Started process (PID=2012) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:46:30,635] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:46:30,636] {logging_mixin.py:109} INFO - [2022-01-30 12:46:30,636] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:46:31,906] {logging_mixin.py:109} INFO - [2022-01-30 12:46:31,902] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:46:31,947] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:46:31,971] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.347 seconds
+[2022-01-30 12:47:02,883] {processor.py:163} INFO - Started process (PID=2043) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:47:02,886] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:47:02,887] {logging_mixin.py:109} INFO - [2022-01-30 12:47:02,887] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:47:04,246] {logging_mixin.py:109} INFO - [2022-01-30 12:47:04,243] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:47:04,281] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:47:04,304] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.426 seconds
+[2022-01-30 12:47:34,478] {processor.py:163} INFO - Started process (PID=2068) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:47:34,481] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:47:34,483] {logging_mixin.py:109} INFO - [2022-01-30 12:47:34,483] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:47:35,839] {logging_mixin.py:109} INFO - [2022-01-30 12:47:35,835] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:47:35,876] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:47:35,901] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.430 seconds
+[2022-01-30 12:48:06,829] {processor.py:163} INFO - Started process (PID=2097) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:48:06,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:48:06,837] {logging_mixin.py:109} INFO - [2022-01-30 12:48:06,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:48:08,132] {logging_mixin.py:109} INFO - [2022-01-30 12:48:08,128] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:48:08,169] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:48:08,194] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.392 seconds
+[2022-01-30 12:48:38,607] {processor.py:163} INFO - Started process (PID=2127) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:48:38,611] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:48:38,613] {logging_mixin.py:109} INFO - [2022-01-30 12:48:38,613] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:48:39,824] {logging_mixin.py:109} INFO - [2022-01-30 12:48:39,821] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:48:39,862] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:48:39,885] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.285 seconds
+[2022-01-30 12:49:10,077] {processor.py:163} INFO - Started process (PID=2156) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:49:10,105] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:49:10,107] {logging_mixin.py:109} INFO - [2022-01-30 12:49:10,107] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:49:11,507] {logging_mixin.py:109} INFO - [2022-01-30 12:49:11,503] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:49:11,558] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:49:11,587] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.541 seconds
+[2022-01-30 12:49:41,818] {processor.py:163} INFO - Started process (PID=2184) to work on /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:49:41,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1_v2.py for tasks to queue
+[2022-01-30 12:49:41,822] {logging_mixin.py:109} INFO - [2022-01-30 12:49:41,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:49:43,098] {logging_mixin.py:109} INFO - [2022-01-30 12:49:43,096] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dag_questions1_v2.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_questions1_v2.py", line 55, in <module>
+    get_data >> febri_task
+NameError: name 'febri_task' is not defined
+[2022-01-30 12:49:43,140] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_questions1_v2.py
+[2022-01-30 12:49:43,166] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1_v2.py took 1.356 seconds

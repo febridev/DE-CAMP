@@ -1,0 +1,46 @@
+[2022-01-30 13:06:16,494] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.halo scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-01-30 13:06:16,540] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.halo scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-01-30 13:06:16,548] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 13:06:16,548] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-01-30 13:06:16,563] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 13:06:16,613] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): halo> on 2020-02-02 06:00:00+00:00
+[2022-01-30 13:06:16,624] {standard_task_runner.py:52} INFO - Started process 2853 to run task
+[2022-01-30 13:06:16,633] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'HomeWorkWeek2', 'halo', 'scheduled__2020-02-02T06:00:00+00:00', '--job-id', '142', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions1.py', '--cfg-path', '/tmp/tmp1_2ombyj', '--error-file', '/tmp/tmp9l4ltqrm']
+[2022-01-30 13:06:16,635] {standard_task_runner.py:77} INFO - Job 142: Subtask halo
+[2022-01-30 13:06:16,892] {logging_mixin.py:109} INFO - Running <TaskInstance: HomeWorkWeek2.halo scheduled__2020-02-02T06:00:00+00:00 [running]> on host 4b3b8c5e49b1
+[2022-01-30 13:06:17,167] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=HomeWorkWeek2
+AIRFLOW_CTX_TASK_ID=halo
+AIRFLOW_CTX_EXECUTION_DATE=2020-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-02-02T06:00:00+00:00
+[2022-01-30 13:06:17,169] {logging_mixin.py:109} INFO - helloworld
+[2022-01-30 13:06:17,170] {python.py:175} INFO - Done. Returned value was: None
+[2022-01-30 13:06:17,224] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=HomeWorkWeek2, task_id=halo, execution_date=20200202T060000, start_date=20220130T130616, end_date=20220130T130617
+[2022-01-30 13:06:17,325] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-30 13:06:17,452] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-01-30 14:55:59,926] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.halo scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-01-30 14:55:59,989] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.halo scheduled__2020-02-02T06:00:00+00:00 [queued]>
+[2022-01-30 14:55:59,990] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 14:55:59,990] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-01-30 14:55:59,991] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 14:56:00,038] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): halo> on 2020-02-02 06:00:00+00:00
+[2022-01-30 14:56:00,046] {standard_task_runner.py:52} INFO - Started process 1324 to run task
+[2022-01-30 14:56:00,052] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'HomeWorkWeek2', 'halo', 'scheduled__2020-02-02T06:00:00+00:00', '--job-id', '244', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions1.py', '--cfg-path', '/tmp/tmpe4tsw8aj', '--error-file', '/tmp/tmpy3r8dfot']
+[2022-01-30 14:56:00,054] {standard_task_runner.py:77} INFO - Job 244: Subtask halo
+[2022-01-30 14:56:00,262] {logging_mixin.py:109} INFO - Running <TaskInstance: HomeWorkWeek2.halo scheduled__2020-02-02T06:00:00+00:00 [running]> on host 785c0c715caa
+[2022-01-30 14:56:00,427] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=HomeWorkWeek2
+AIRFLOW_CTX_TASK_ID=halo
+AIRFLOW_CTX_EXECUTION_DATE=2020-02-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-02-02T06:00:00+00:00
+[2022-01-30 14:56:00,430] {logging_mixin.py:109} INFO - hello world!!
+[2022-01-30 14:56:00,430] {python.py:175} INFO - Done. Returned value was: None
+[2022-01-30 14:56:00,465] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=HomeWorkWeek2, task_id=halo, execution_date=20200202T060000, start_date=20220130T145559, end_date=20220130T145600
+[2022-01-30 14:56:00,529] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-30 14:56:00,636] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

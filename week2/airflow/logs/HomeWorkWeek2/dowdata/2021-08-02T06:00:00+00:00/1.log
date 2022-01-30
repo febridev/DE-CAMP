@@ -1,0 +1,132 @@
+[2022-01-30 13:10:35,827] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.dowdata scheduled__2021-08-02T06:00:00+00:00 [queued]>
+[2022-01-30 13:10:35,904] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.dowdata scheduled__2021-08-02T06:00:00+00:00 [queued]>
+[2022-01-30 13:10:35,905] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 13:10:35,905] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-01-30 13:10:35,905] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 13:10:35,956] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): dowdata> on 2021-08-02 06:00:00+00:00
+[2022-01-30 13:10:35,968] {standard_task_runner.py:52} INFO - Started process 3124 to run task
+[2022-01-30 13:10:35,982] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'HomeWorkWeek2', 'dowdata', 'scheduled__2021-08-02T06:00:00+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions1.py', '--cfg-path', '/tmp/tmp8vij8dnt', '--error-file', '/tmp/tmp70gylpb5']
+[2022-01-30 13:10:35,984] {standard_task_runner.py:77} INFO - Job 165: Subtask dowdata
+[2022-01-30 13:10:36,205] {logging_mixin.py:109} INFO - Running <TaskInstance: HomeWorkWeek2.dowdata scheduled__2021-08-02T06:00:00+00:00 [running]> on host 4b3b8c5e49b1
+[2022-01-30 13:10:36,398] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-30 13:10:36,501] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=HomeWorkWeek2
+AIRFLOW_CTX_TASK_ID=dowdata
+AIRFLOW_CTX_EXECUTION_DATE=2021-08-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-08-02T06:00:00+00:00
+[2022-01-30 13:10:36,503] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-30 13:10:36,505] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-08.csv > /opt/***output_2021-08.csv']
+[2022-01-30 13:10:36,530] {subprocess.py:85} INFO - Output:
+[2022-01-30 13:10:37,933] {subprocess.py:89} INFO - curl: (22) The requested URL returned error: 404 Not Found
+[2022-01-30 13:10:37,934] {subprocess.py:93} INFO - Command exited with return code 22
+[2022-01-30 13:10:38,258] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 22.
+[2022-01-30 13:10:38,321] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=HomeWorkWeek2, task_id=dowdata, execution_date=20210802T060000, start_date=20220130T131035, end_date=20220130T131038
+[2022-01-30 13:10:38,457] {standard_task_runner.py:92} ERROR - Failed to execute job 165 for task dowdata
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 22.
+[2022-01-30 13:10:38,537] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-01-30 13:10:39,016] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-01-30 14:59:06,776] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.dowdata scheduled__2021-08-02T06:00:00+00:00 [queued]>
+[2022-01-30 14:59:06,836] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.dowdata scheduled__2021-08-02T06:00:00+00:00 [queued]>
+[2022-01-30 14:59:06,836] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 14:59:06,837] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-01-30 14:59:06,837] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-30 14:59:06,888] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): dowdata> on 2021-08-02 06:00:00+00:00
+[2022-01-30 14:59:06,899] {standard_task_runner.py:52} INFO - Started process 1603 to run task
+[2022-01-30 14:59:06,906] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'HomeWorkWeek2', 'dowdata', 'scheduled__2021-08-02T06:00:00+00:00', '--job-id', '270', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions1.py', '--cfg-path', '/tmp/tmpt92byf4a', '--error-file', '/tmp/tmpgnyokb46']
+[2022-01-30 14:59:06,908] {standard_task_runner.py:77} INFO - Job 270: Subtask dowdata
+[2022-01-30 14:59:07,104] {logging_mixin.py:109} INFO - Running <TaskInstance: HomeWorkWeek2.dowdata scheduled__2021-08-02T06:00:00+00:00 [running]> on host 785c0c715caa
+[2022-01-30 14:59:07,261] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-01-30 14:59:07,319] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=HomeWorkWeek2
+AIRFLOW_CTX_TASK_ID=dowdata
+AIRFLOW_CTX_EXECUTION_DATE=2021-08-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-08-02T06:00:00+00:00
+[2022-01-30 14:59:07,322] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-30 14:59:07,323] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2021-08.csv > /opt/***output_2021-08.csv']
+[2022-01-30 14:59:07,343] {subprocess.py:85} INFO - Output:
+[2022-01-30 14:59:08,403] {subprocess.py:89} INFO - curl: (22) The requested URL returned error: 404 Not Found
+[2022-01-30 14:59:08,405] {subprocess.py:93} INFO - Command exited with return code 22
+[2022-01-30 14:59:08,574] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 22.
+[2022-01-30 14:59:08,611] {taskinstance.py:1277} INFO - Marking task as UP_FOR_RETRY. dag_id=HomeWorkWeek2, task_id=dowdata, execution_date=20210802T060000, start_date=20220130T145906, end_date=20220130T145908
+[2022-01-30 14:59:08,689] {standard_task_runner.py:92} ERROR - Failed to execute job 270 for task dowdata
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 22.
+[2022-01-30 14:59:08,746] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-01-30 14:59:08,921] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
