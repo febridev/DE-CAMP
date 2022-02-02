@@ -25,8 +25,9 @@ local_workflow = DAG(
     "HomeWorkWeek2",
     schedule_interval="0 6 2 * *",
     start_date = datetime(2019,1,1),
+    end_date = datetime(2022,1,1),
     catchup = True,
-    max_active_runs = 3
+    max_active_runs = 1
 )
 
 with local_workflow:

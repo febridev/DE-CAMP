@@ -1,0 +1,25 @@
+[2022-02-02 21:26:20,950] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.csv_to_parquet scheduled__2019-10-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:26:20,999] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.csv_to_parquet scheduled__2019-10-02T06:00:00+00:00 [queued]>
+[2022-02-02 21:26:20,999] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:26:21,000] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-02 21:26:21,000] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:26:21,048] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): csv_to_parquet> on 2019-10-02 06:00:00+00:00
+[2022-02-02 21:26:21,055] {standard_task_runner.py:52} INFO - Started process 1332 to run task
+[2022-02-02 21:26:21,060] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Question3_FHV', 'csv_to_parquet', 'scheduled__2019-10-02T06:00:00+00:00', '--job-id', '348', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions3.py', '--cfg-path', '/tmp/tmphow51jb5', '--error-file', '/tmp/tmpyqa5iao7']
+[2022-02-02 21:26:21,062] {standard_task_runner.py:77} INFO - Job 348: Subtask csv_to_parquet
+[2022-02-02 21:26:21,257] {logging_mixin.py:109} INFO - Running <TaskInstance: Question3_FHV.csv_to_parquet scheduled__2019-10-02T06:00:00+00:00 [running]> on host d574c7c5b085
+[2022-02-02 21:26:21,407] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-02 21:26:21,487] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Question3_FHV
+AIRFLOW_CTX_TASK_ID=csv_to_parquet
+AIRFLOW_CTX_EXECUTION_DATE=2019-10-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-10-02T06:00:00+00:00
+[2022-02-02 21:26:25,620] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-02 21:26:25,635] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question3_FHV, task_id=csv_to_parquet, execution_date=20191002T060000, start_date=20220202T212620, end_date=20220202T212625
+[2022-02-02 21:26:25,723] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:26:25,792] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

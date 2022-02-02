@@ -1,0 +1,78 @@
+[2022-02-02 21:46:12,867] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-02-02 21:46:12,921] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-02-02 21:46:12,922] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:46:12,922] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-02 21:46:12,922] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:46:12,981] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): dowdata> on 2022-01-01 00:00:00+00:00
+[2022-02-02 21:46:12,988] {standard_task_runner.py:52} INFO - Started process 2297 to run task
+[2022-02-02 21:46:12,995] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Question4_Zone', 'dowdata', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '369', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions4.py', '--cfg-path', '/tmp/tmp1sixa7c_', '--error-file', '/tmp/tmpm251tfl5']
+[2022-02-02 21:46:12,998] {standard_task_runner.py:77} INFO - Job 369: Subtask dowdata
+[2022-02-02 21:46:13,198] {logging_mixin.py:109} INFO - Running <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [running]> on host d574c7c5b085
+[2022-02-02 21:46:13,423] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Question4_Zone
+AIRFLOW_CTX_TASK_ID=dowdata
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-02-02 21:46:13,428] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-02 21:46:13,429] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv > /opt/***taxi+_zone_lookup.csv']
+[2022-02-02 21:46:13,468] {subprocess.py:85} INFO - Output:
+[2022-02-02 21:46:14,824] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-02 21:46:14,927] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question4_Zone, task_id=dowdata, execution_date=20220101T000000, start_date=20220202T214612, end_date=20220202T214614
+[2022-02-02 21:46:15,004] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:46:15,123] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-02 21:47:20,701] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-02-02 21:47:20,735] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-02-02 21:47:20,736] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:47:20,736] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-02 21:47:20,736] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:47:20,761] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): dowdata> on 2022-01-01 00:00:00+00:00
+[2022-02-02 21:47:20,770] {standard_task_runner.py:52} INFO - Started process 2356 to run task
+[2022-02-02 21:47:20,775] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Question4_Zone', 'dowdata', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '372', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions4.py', '--cfg-path', '/tmp/tmppm5529wg', '--error-file', '/tmp/tmpf4f18fqs']
+[2022-02-02 21:47:20,776] {standard_task_runner.py:77} INFO - Job 372: Subtask dowdata
+[2022-02-02 21:47:20,919] {logging_mixin.py:109} INFO - Running <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [running]> on host d574c7c5b085
+[2022-02-02 21:47:21,052] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Question4_Zone
+AIRFLOW_CTX_TASK_ID=dowdata
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-02-02 21:47:21,053] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-02 21:47:21,054] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv > /opt/***taxi+_zone_lookup.csv']
+[2022-02-02 21:47:21,065] {subprocess.py:85} INFO - Output:
+[2022-02-02 21:47:22,215] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-02 21:47:22,298] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question4_Zone, task_id=dowdata, execution_date=20220101T000000, start_date=20220202T214720, end_date=20220202T214722
+[2022-02-02 21:47:22,363] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:47:22,542] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-02 21:49:39,767] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-02-02 21:49:39,797] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-02-02 21:49:39,798] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:49:39,798] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-02 21:49:39,798] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-02 21:49:39,840] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): dowdata> on 2022-01-01 00:00:00+00:00
+[2022-02-02 21:49:39,846] {standard_task_runner.py:52} INFO - Started process 2497 to run task
+[2022-02-02 21:49:39,851] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Question4_Zone', 'dowdata', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '378', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions4.py', '--cfg-path', '/tmp/tmp7chedrg4', '--error-file', '/tmp/tmphbb5977x']
+[2022-02-02 21:49:39,853] {standard_task_runner.py:77} INFO - Job 378: Subtask dowdata
+[2022-02-02 21:49:40,034] {logging_mixin.py:109} INFO - Running <TaskInstance: Question4_Zone.dowdata scheduled__2022-01-01T00:00:00+00:00 [running]> on host d574c7c5b085
+[2022-02-02 21:49:40,189] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Question4_Zone
+AIRFLOW_CTX_TASK_ID=dowdata
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-02-02 21:49:40,195] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-02 21:49:40,196] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://s3.amazonaws.com/nyc-tlc/misc/taxi+_zone_lookup.csv > /opt/***taxi+_zone_lookup.csv']
+[2022-02-02 21:49:40,215] {subprocess.py:85} INFO - Output:
+[2022-02-02 21:49:41,400] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-02 21:49:41,465] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question4_Zone, task_id=dowdata, execution_date=20220101T000000, start_date=20220202T214939, end_date=20220202T214941
+[2022-02-02 21:49:41,509] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-02 21:49:41,668] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
