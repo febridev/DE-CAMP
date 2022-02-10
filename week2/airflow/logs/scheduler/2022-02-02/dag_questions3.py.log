@@ -615,3 +615,115 @@
 [2022-02-02 21:51:34,339] {logging_mixin.py:109} INFO - [2022-02-02 21:51:34,338] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-02-02 21:51:34,391] {logging_mixin.py:109} INFO - [2022-02-02 21:51:34,391] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
 [2022-02-02 21:51:34,414] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.728 seconds
+[2022-02-02 21:52:04,477] {processor.py:163} INFO - Started process (PID=2979) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:52:04,480] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:52:04,481] {logging_mixin.py:109} INFO - [2022-02-02 21:52:04,481] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:52:06,045] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:52:06,074] {logging_mixin.py:109} INFO - [2022-02-02 21:52:06,073] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:52:06,126] {logging_mixin.py:109} INFO - [2022-02-02 21:52:06,126] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:52:06,153] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.684 seconds
+[2022-02-02 21:52:36,390] {processor.py:163} INFO - Started process (PID=3013) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:52:36,393] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:52:36,394] {logging_mixin.py:109} INFO - [2022-02-02 21:52:36,394] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:52:37,896] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:52:37,921] {logging_mixin.py:109} INFO - [2022-02-02 21:52:37,921] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:52:37,971] {logging_mixin.py:109} INFO - [2022-02-02 21:52:37,971] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:52:37,992] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.608 seconds
+[2022-02-02 21:53:08,243] {processor.py:163} INFO - Started process (PID=3046) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:53:08,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:53:08,249] {logging_mixin.py:109} INFO - [2022-02-02 21:53:08,248] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:53:09,876] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:53:09,903] {logging_mixin.py:109} INFO - [2022-02-02 21:53:09,901] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:53:09,948] {logging_mixin.py:109} INFO - [2022-02-02 21:53:09,947] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:53:09,968] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.733 seconds
+[2022-02-02 21:53:40,319] {processor.py:163} INFO - Started process (PID=3081) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:53:40,322] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:53:40,323] {logging_mixin.py:109} INFO - [2022-02-02 21:53:40,323] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:53:41,982] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:53:42,015] {logging_mixin.py:109} INFO - [2022-02-02 21:53:42,014] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:53:42,066] {logging_mixin.py:109} INFO - [2022-02-02 21:53:42,066] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:53:42,089] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.775 seconds
+[2022-02-02 21:54:12,238] {processor.py:163} INFO - Started process (PID=3116) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:54:12,240] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:54:12,242] {logging_mixin.py:109} INFO - [2022-02-02 21:54:12,242] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:54:13,732] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:54:13,758] {logging_mixin.py:109} INFO - [2022-02-02 21:54:13,757] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:54:13,807] {logging_mixin.py:109} INFO - [2022-02-02 21:54:13,807] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:54:13,828] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.595 seconds
+[2022-02-02 21:54:44,057] {processor.py:163} INFO - Started process (PID=3151) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:54:44,061] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:54:44,063] {logging_mixin.py:109} INFO - [2022-02-02 21:54:44,062] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:54:45,706] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:54:45,734] {logging_mixin.py:109} INFO - [2022-02-02 21:54:45,733] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:54:45,786] {logging_mixin.py:109} INFO - [2022-02-02 21:54:45,786] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:54:45,809] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.757 seconds
+[2022-02-02 21:55:16,030] {processor.py:163} INFO - Started process (PID=3184) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:55:16,034] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:55:16,035] {logging_mixin.py:109} INFO - [2022-02-02 21:55:16,035] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:55:17,629] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:55:17,658] {logging_mixin.py:109} INFO - [2022-02-02 21:55:17,657] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:55:17,718] {logging_mixin.py:109} INFO - [2022-02-02 21:55:17,718] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:55:17,755] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.732 seconds
+[2022-02-02 21:55:48,013] {processor.py:163} INFO - Started process (PID=3218) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:55:48,015] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:55:48,017] {logging_mixin.py:109} INFO - [2022-02-02 21:55:48,017] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:55:49,957] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:55:49,988] {logging_mixin.py:109} INFO - [2022-02-02 21:55:49,987] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:55:50,052] {logging_mixin.py:109} INFO - [2022-02-02 21:55:50,052] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:55:50,076] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 2.068 seconds
+[2022-02-02 21:56:20,581] {processor.py:163} INFO - Started process (PID=3257) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:56:20,583] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:56:20,585] {logging_mixin.py:109} INFO - [2022-02-02 21:56:20,584] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:56:22,214] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:56:22,243] {logging_mixin.py:109} INFO - [2022-02-02 21:56:22,242] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:56:22,305] {logging_mixin.py:109} INFO - [2022-02-02 21:56:22,304] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:56:22,330] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.754 seconds
+[2022-02-02 21:56:52,629] {processor.py:163} INFO - Started process (PID=3289) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:56:52,647] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:56:52,649] {logging_mixin.py:109} INFO - [2022-02-02 21:56:52,649] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:56:54,537] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:56:54,566] {logging_mixin.py:109} INFO - [2022-02-02 21:56:54,565] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:56:54,625] {logging_mixin.py:109} INFO - [2022-02-02 21:56:54,624] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:56:54,648] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 2.027 seconds
+[2022-02-02 21:57:25,005] {processor.py:163} INFO - Started process (PID=3326) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:57:25,016] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:57:25,017] {logging_mixin.py:109} INFO - [2022-02-02 21:57:25,017] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:57:26,163] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:57:26,183] {logging_mixin.py:109} INFO - [2022-02-02 21:57:26,183] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:57:26,232] {logging_mixin.py:109} INFO - [2022-02-02 21:57:26,232] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:57:26,250] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.250 seconds
+[2022-02-02 21:57:56,799] {processor.py:163} INFO - Started process (PID=3357) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:57:56,802] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:57:56,804] {logging_mixin.py:109} INFO - [2022-02-02 21:57:56,803] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:57:58,548] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:57:58,583] {logging_mixin.py:109} INFO - [2022-02-02 21:57:58,582] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:57:58,645] {logging_mixin.py:109} INFO - [2022-02-02 21:57:58,644] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:57:58,678] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.885 seconds
+[2022-02-02 21:58:29,300] {processor.py:163} INFO - Started process (PID=3391) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:58:29,303] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:58:29,304] {logging_mixin.py:109} INFO - [2022-02-02 21:58:29,304] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:58:30,741] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:58:30,782] {logging_mixin.py:109} INFO - [2022-02-02 21:58:30,781] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:58:30,843] {logging_mixin.py:109} INFO - [2022-02-02 21:58:30,842] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:58:30,870] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.575 seconds
+[2022-02-02 21:59:01,138] {processor.py:163} INFO - Started process (PID=3424) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:59:01,141] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:59:01,142] {logging_mixin.py:109} INFO - [2022-02-02 21:59:01,142] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:59:02,630] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:59:02,650] {logging_mixin.py:109} INFO - [2022-02-02 21:59:02,650] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:59:02,689] {logging_mixin.py:109} INFO - [2022-02-02 21:59:02,689] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:59:02,708] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.575 seconds
+[2022-02-02 21:59:32,961] {processor.py:163} INFO - Started process (PID=3458) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:59:32,964] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 21:59:32,966] {logging_mixin.py:109} INFO - [2022-02-02 21:59:32,966] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:59:34,664] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 21:59:34,692] {logging_mixin.py:109} INFO - [2022-02-02 21:59:34,691] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:59:34,782] {logging_mixin.py:109} INFO - [2022-02-02 21:59:34,781] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 21:59:34,813] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.858 seconds
+[2022-02-02 22:00:04,882] {processor.py:163} INFO - Started process (PID=3492) to work on /opt/airflow/dags/dag_questions3.py
+[2022-02-02 22:00:04,885] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions3.py for tasks to queue
+[2022-02-02 22:00:04,888] {logging_mixin.py:109} INFO - [2022-02-02 22:00:04,887] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 22:00:06,473] {processor.py:654} INFO - DAG(s) dict_keys(['Question3_FHV']) retrieved from /opt/airflow/dags/dag_questions3.py
+[2022-02-02 22:00:06,500] {logging_mixin.py:109} INFO - [2022-02-02 22:00:06,499] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 22:00:06,545] {logging_mixin.py:109} INFO - [2022-02-02 22:00:06,545] {dag.py:2935} INFO - Setting next_dagrun for Question3_FHV to None
+[2022-02-02 22:00:06,565] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions3.py took 1.691 seconds

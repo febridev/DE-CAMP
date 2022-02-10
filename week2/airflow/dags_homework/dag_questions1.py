@@ -52,7 +52,7 @@ with local_workflow:
         python_callable=upload_to_gcs,
         op_kwargs={
             "bucket": BUCKET,
-            "object_name": f"{PARQUET_FILE}",
+            "object_name": f"raw/{PARQUET_FILE}",
             "local_file": f"{PATH_PARQUET_FILE}{PARQUET_FILE}",
         },
     )

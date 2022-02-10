@@ -706,3 +706,115 @@
 [2022-02-02 21:51:22,782] {logging_mixin.py:109} INFO - [2022-02-02 21:51:22,781] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-02-02 21:51:22,843] {logging_mixin.py:109} INFO - [2022-02-02 21:51:22,842] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
 [2022-02-02 21:51:22,868] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.786 seconds
+[2022-02-02 21:51:52,978] {processor.py:163} INFO - Started process (PID=2959) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:51:52,981] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:51:52,983] {logging_mixin.py:109} INFO - [2022-02-02 21:51:52,982] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:51:54,572] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:51:54,606] {logging_mixin.py:109} INFO - [2022-02-02 21:51:54,605] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:51:54,661] {logging_mixin.py:109} INFO - [2022-02-02 21:51:54,661] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:51:54,688] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.718 seconds
+[2022-02-02 21:52:24,986] {processor.py:163} INFO - Started process (PID=2994) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:52:24,988] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:52:24,990] {logging_mixin.py:109} INFO - [2022-02-02 21:52:24,990] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:52:26,730] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:52:26,759] {logging_mixin.py:109} INFO - [2022-02-02 21:52:26,758] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:52:26,813] {logging_mixin.py:109} INFO - [2022-02-02 21:52:26,813] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:52:26,844] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.864 seconds
+[2022-02-02 21:52:56,926] {processor.py:163} INFO - Started process (PID=3026) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:52:56,928] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:52:56,930] {logging_mixin.py:109} INFO - [2022-02-02 21:52:56,930] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:52:58,571] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:52:58,596] {logging_mixin.py:109} INFO - [2022-02-02 21:52:58,596] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:52:58,644] {logging_mixin.py:109} INFO - [2022-02-02 21:52:58,644] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:52:58,666] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.745 seconds
+[2022-02-02 21:53:29,312] {processor.py:163} INFO - Started process (PID=3061) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:53:29,314] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:53:29,316] {logging_mixin.py:109} INFO - [2022-02-02 21:53:29,316] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:53:31,085] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:53:31,114] {logging_mixin.py:109} INFO - [2022-02-02 21:53:31,114] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:53:31,178] {logging_mixin.py:109} INFO - [2022-02-02 21:53:31,177] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:53:31,213] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.907 seconds
+[2022-02-02 21:54:01,353] {processor.py:163} INFO - Started process (PID=3106) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:54:01,356] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:54:01,357] {logging_mixin.py:109} INFO - [2022-02-02 21:54:01,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:54:03,204] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:54:03,232] {logging_mixin.py:109} INFO - [2022-02-02 21:54:03,231] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:54:03,283] {logging_mixin.py:109} INFO - [2022-02-02 21:54:03,283] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:54:03,309] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.963 seconds
+[2022-02-02 21:54:33,863] {processor.py:163} INFO - Started process (PID=3141) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:54:33,867] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:54:33,868] {logging_mixin.py:109} INFO - [2022-02-02 21:54:33,868] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:54:35,625] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:54:35,651] {logging_mixin.py:109} INFO - [2022-02-02 21:54:35,650] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:54:35,701] {logging_mixin.py:109} INFO - [2022-02-02 21:54:35,701] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:54:35,723] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.867 seconds
+[2022-02-02 21:55:06,241] {processor.py:163} INFO - Started process (PID=3174) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:55:06,244] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:55:06,245] {logging_mixin.py:109} INFO - [2022-02-02 21:55:06,245] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:55:07,641] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:55:07,665] {logging_mixin.py:109} INFO - [2022-02-02 21:55:07,664] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:55:07,710] {logging_mixin.py:109} INFO - [2022-02-02 21:55:07,710] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:55:07,729] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.493 seconds
+[2022-02-02 21:55:37,914] {processor.py:163} INFO - Started process (PID=3208) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:55:37,919] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:55:37,921] {logging_mixin.py:109} INFO - [2022-02-02 21:55:37,921] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:55:39,410] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:55:39,434] {logging_mixin.py:109} INFO - [2022-02-02 21:55:39,434] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:55:39,490] {logging_mixin.py:109} INFO - [2022-02-02 21:55:39,490] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:55:39,513] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.607 seconds
+[2022-02-02 21:56:10,108] {processor.py:163} INFO - Started process (PID=3240) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:56:10,111] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:56:10,113] {logging_mixin.py:109} INFO - [2022-02-02 21:56:10,113] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:56:11,695] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:56:11,718] {logging_mixin.py:109} INFO - [2022-02-02 21:56:11,718] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:56:11,770] {logging_mixin.py:109} INFO - [2022-02-02 21:56:11,769] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:56:11,795] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.693 seconds
+[2022-02-02 21:56:42,074] {processor.py:163} INFO - Started process (PID=3273) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:56:42,077] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:56:42,079] {logging_mixin.py:109} INFO - [2022-02-02 21:56:42,079] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:56:43,834] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:56:43,863] {logging_mixin.py:109} INFO - [2022-02-02 21:56:43,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:56:43,930] {logging_mixin.py:109} INFO - [2022-02-02 21:56:43,930] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:56:43,956] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.888 seconds
+[2022-02-02 21:57:14,841] {processor.py:163} INFO - Started process (PID=3306) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:57:14,844] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:57:14,846] {logging_mixin.py:109} INFO - [2022-02-02 21:57:14,846] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:57:16,322] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:57:16,358] {logging_mixin.py:109} INFO - [2022-02-02 21:57:16,357] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:57:16,406] {logging_mixin.py:109} INFO - [2022-02-02 21:57:16,406] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:57:16,429] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.593 seconds
+[2022-02-02 21:57:46,474] {processor.py:163} INFO - Started process (PID=3339) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:57:46,476] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:57:46,478] {logging_mixin.py:109} INFO - [2022-02-02 21:57:46,478] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:57:47,890] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:57:47,906] {logging_mixin.py:109} INFO - [2022-02-02 21:57:47,905] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:57:47,957] {logging_mixin.py:109} INFO - [2022-02-02 21:57:47,957] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:57:47,981] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.513 seconds
+[2022-02-02 21:58:18,525] {processor.py:163} INFO - Started process (PID=3372) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:58:18,528] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:58:18,530] {logging_mixin.py:109} INFO - [2022-02-02 21:58:18,530] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:58:20,115] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:58:20,143] {logging_mixin.py:109} INFO - [2022-02-02 21:58:20,142] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:58:20,195] {logging_mixin.py:109} INFO - [2022-02-02 21:58:20,194] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:58:20,216] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.696 seconds
+[2022-02-02 21:58:51,037] {processor.py:163} INFO - Started process (PID=3405) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:58:51,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:58:51,042] {logging_mixin.py:109} INFO - [2022-02-02 21:58:51,042] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:58:52,672] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:58:52,698] {logging_mixin.py:109} INFO - [2022-02-02 21:58:52,697] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:58:52,762] {logging_mixin.py:109} INFO - [2022-02-02 21:58:52,761] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:58:52,786] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.756 seconds
+[2022-02-02 21:59:22,862] {processor.py:163} INFO - Started process (PID=3439) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:59:22,865] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:59:22,866] {logging_mixin.py:109} INFO - [2022-02-02 21:59:22,866] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:59:24,514] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:59:24,540] {logging_mixin.py:109} INFO - [2022-02-02 21:59:24,539] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:59:24,586] {logging_mixin.py:109} INFO - [2022-02-02 21:59:24,586] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:59:24,606] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.750 seconds
+[2022-02-02 21:59:54,832] {processor.py:163} INFO - Started process (PID=3473) to work on /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:59:54,835] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions1.py for tasks to queue
+[2022-02-02 21:59:54,837] {logging_mixin.py:109} INFO - [2022-02-02 21:59:54,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:59:56,692] {processor.py:654} INFO - DAG(s) dict_keys(['HomeWorkWeek2']) retrieved from /opt/airflow/dags/dag_questions1.py
+[2022-02-02 21:59:56,716] {logging_mixin.py:109} INFO - [2022-02-02 21:59:56,715] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:59:56,761] {logging_mixin.py:109} INFO - [2022-02-02 21:59:56,761] {dag.py:2935} INFO - Setting next_dagrun for HomeWorkWeek2 to 2019-01-02 06:00:00+00:00
+[2022-02-02 21:59:56,782] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions1.py took 1.957 seconds

@@ -217,3 +217,115 @@
 [2022-02-02 21:51:31,681] {logging_mixin.py:109} INFO - [2022-02-02 21:51:31,680] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-02-02 21:51:31,734] {logging_mixin.py:109} INFO - [2022-02-02 21:51:31,734] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
 [2022-02-02 21:51:31,759] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.819 seconds
+[2022-02-02 21:52:02,683] {processor.py:163} INFO - Started process (PID=2974) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:52:02,686] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:52:02,688] {logging_mixin.py:109} INFO - [2022-02-02 21:52:02,687] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:52:04,333] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:52:04,364] {logging_mixin.py:109} INFO - [2022-02-02 21:52:04,363] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:52:04,415] {logging_mixin.py:109} INFO - [2022-02-02 21:52:04,414] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:52:04,438] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.761 seconds
+[2022-02-02 21:52:34,931] {processor.py:163} INFO - Started process (PID=3008) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:52:34,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:52:34,936] {logging_mixin.py:109} INFO - [2022-02-02 21:52:34,935] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:52:36,552] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:52:36,579] {logging_mixin.py:109} INFO - [2022-02-02 21:52:36,579] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:52:36,627] {logging_mixin.py:109} INFO - [2022-02-02 21:52:36,627] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:52:36,650] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.728 seconds
+[2022-02-02 21:53:06,740] {processor.py:163} INFO - Started process (PID=3041) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:53:06,742] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:53:06,744] {logging_mixin.py:109} INFO - [2022-02-02 21:53:06,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:53:08,308] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:53:08,344] {logging_mixin.py:109} INFO - [2022-02-02 21:53:08,343] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:53:08,400] {logging_mixin.py:109} INFO - [2022-02-02 21:53:08,400] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:53:08,427] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.692 seconds
+[2022-02-02 21:53:38,755] {processor.py:163} INFO - Started process (PID=3076) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:53:38,760] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:53:38,762] {logging_mixin.py:109} INFO - [2022-02-02 21:53:38,762] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:53:40,281] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:53:40,311] {logging_mixin.py:109} INFO - [2022-02-02 21:53:40,310] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:53:40,360] {logging_mixin.py:109} INFO - [2022-02-02 21:53:40,359] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:53:40,410] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.664 seconds
+[2022-02-02 21:54:10,599] {processor.py:163} INFO - Started process (PID=3111) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:54:10,602] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:54:10,603] {logging_mixin.py:109} INFO - [2022-02-02 21:54:10,603] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:54:12,122] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:54:12,147] {logging_mixin.py:109} INFO - [2022-02-02 21:54:12,146] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:54:12,186] {logging_mixin.py:109} INFO - [2022-02-02 21:54:12,186] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:54:12,205] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.614 seconds
+[2022-02-02 21:54:42,834] {processor.py:163} INFO - Started process (PID=3146) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:54:42,836] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:54:42,838] {logging_mixin.py:109} INFO - [2022-02-02 21:54:42,838] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:54:44,566] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:54:44,596] {logging_mixin.py:109} INFO - [2022-02-02 21:54:44,596] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:54:44,653] {logging_mixin.py:109} INFO - [2022-02-02 21:54:44,653] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:54:44,676] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.849 seconds
+[2022-02-02 21:55:15,025] {processor.py:163} INFO - Started process (PID=3179) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:55:15,051] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:55:15,070] {logging_mixin.py:109} INFO - [2022-02-02 21:55:15,069] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:55:16,681] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:55:16,705] {logging_mixin.py:109} INFO - [2022-02-02 21:55:16,705] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:55:16,753] {logging_mixin.py:109} INFO - [2022-02-02 21:55:16,752] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:55:16,774] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.756 seconds
+[2022-02-02 21:55:47,004] {processor.py:163} INFO - Started process (PID=3213) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:55:47,007] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:55:47,008] {logging_mixin.py:109} INFO - [2022-02-02 21:55:47,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:55:48,775] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:55:48,799] {logging_mixin.py:109} INFO - [2022-02-02 21:55:48,799] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:55:48,854] {logging_mixin.py:109} INFO - [2022-02-02 21:55:48,854] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:55:48,879] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.879 seconds
+[2022-02-02 21:56:19,574] {processor.py:163} INFO - Started process (PID=3245) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:56:19,576] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:56:19,578] {logging_mixin.py:109} INFO - [2022-02-02 21:56:19,578] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:56:21,335] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:56:21,363] {logging_mixin.py:109} INFO - [2022-02-02 21:56:21,362] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:56:21,413] {logging_mixin.py:109} INFO - [2022-02-02 21:56:21,413] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:56:21,433] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.867 seconds
+[2022-02-02 21:56:51,591] {processor.py:163} INFO - Started process (PID=3278) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:56:51,593] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:56:51,595] {logging_mixin.py:109} INFO - [2022-02-02 21:56:51,595] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:56:53,551] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:56:53,576] {logging_mixin.py:109} INFO - [2022-02-02 21:56:53,576] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:56:53,637] {logging_mixin.py:109} INFO - [2022-02-02 21:56:53,637] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:56:53,666] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 2.081 seconds
+[2022-02-02 21:57:24,001] {processor.py:163} INFO - Started process (PID=3316) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:57:24,007] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:57:24,008] {logging_mixin.py:109} INFO - [2022-02-02 21:57:24,008] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:57:25,482] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:57:25,508] {logging_mixin.py:109} INFO - [2022-02-02 21:57:25,508] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:57:25,546] {logging_mixin.py:109} INFO - [2022-02-02 21:57:25,546] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:57:25,566] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.574 seconds
+[2022-02-02 21:57:55,796] {processor.py:163} INFO - Started process (PID=3350) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:57:55,805] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:57:55,807] {logging_mixin.py:109} INFO - [2022-02-02 21:57:55,806] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:57:57,571] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:57:57,609] {logging_mixin.py:109} INFO - [2022-02-02 21:57:57,608] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:57:57,654] {logging_mixin.py:109} INFO - [2022-02-02 21:57:57,654] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:57:57,693] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.909 seconds
+[2022-02-02 21:58:28,293] {processor.py:163} INFO - Started process (PID=3386) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:58:28,295] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:58:28,297] {logging_mixin.py:109} INFO - [2022-02-02 21:58:28,297] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:58:29,713] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:58:29,731] {logging_mixin.py:109} INFO - [2022-02-02 21:58:29,731] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:58:29,766] {logging_mixin.py:109} INFO - [2022-02-02 21:58:29,765] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:58:29,779] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.492 seconds
+[2022-02-02 21:58:59,864] {processor.py:163} INFO - Started process (PID=3419) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:58:59,869] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:58:59,871] {logging_mixin.py:109} INFO - [2022-02-02 21:58:59,870] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:59:01,508] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:59:01,531] {logging_mixin.py:109} INFO - [2022-02-02 21:59:01,530] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:59:01,576] {logging_mixin.py:109} INFO - [2022-02-02 21:59:01,575] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:59:01,598] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.744 seconds
+[2022-02-02 21:59:31,691] {processor.py:163} INFO - Started process (PID=3453) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:59:31,693] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 21:59:31,695] {logging_mixin.py:109} INFO - [2022-02-02 21:59:31,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:59:33,380] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 21:59:33,418] {logging_mixin.py:109} INFO - [2022-02-02 21:59:33,417] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 21:59:33,480] {logging_mixin.py:109} INFO - [2022-02-02 21:59:33,480] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 21:59:33,536] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.852 seconds
+[2022-02-02 22:00:03,863] {processor.py:163} INFO - Started process (PID=3487) to work on /opt/airflow/dags/dag_questions4.py
+[2022-02-02 22:00:03,866] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_questions4.py for tasks to queue
+[2022-02-02 22:00:03,868] {logging_mixin.py:109} INFO - [2022-02-02 22:00:03,868] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 22:00:05,601] {processor.py:654} INFO - DAG(s) dict_keys(['Question4_Zone']) retrieved from /opt/airflow/dags/dag_questions4.py
+[2022-02-02 22:00:05,631] {logging_mixin.py:109} INFO - [2022-02-02 22:00:05,631] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-02-02 22:00:05,679] {logging_mixin.py:109} INFO - [2022-02-02 22:00:05,679] {dag.py:2935} INFO - Setting next_dagrun for Question4_Zone to None
+[2022-02-02 22:00:05,704] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_questions4.py took 1.849 seconds

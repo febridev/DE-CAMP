@@ -1,0 +1,1 @@
+SELECT count(*) FROM `portfoliode-demo.trips_data_all.fhv_trips_data`

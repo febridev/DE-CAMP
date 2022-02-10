@@ -1,0 +1,1 @@
+SELECT distinct dispatching_base_num FROM `portfoliode-demo.trips_data_all.fhv_trips_data`

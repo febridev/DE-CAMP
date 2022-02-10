@@ -15,8 +15,8 @@ BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
 URL_PREFIX = 'https://nyc-tlc.s3.amazonaws.com/trip+data'
 FILE_TEMPLATE = URL_PREFIX + '/fhv_tripdata_2019-{{ execution_date.strftime(\'%m\') }}.csv'
-OUTPUT_FILE_TEMPLATE = AIRFLOW_HOME + 'output_fhv_2019-{{ execution_date.strftime(\'%m\') }}.csv'
-PARQUET_FILE = 'output_fhv_2019-{{ execution_date.strftime(\'%m\') }}.parquet'
+OUTPUT_FILE_TEMPLATE = AIRFLOW_HOME + 'fhv_2019-{{ execution_date.strftime(\'%m\') }}.csv'
+PARQUET_FILE = 'fhv_2019-{{ execution_date.strftime(\'%m\') }}.parquet'
 PATH_PARQUET_FILE = AIRFLOW_HOME
 
 TABLE_NAME_TEMPLATE = 'yellow_taxi_{{ execution_date.strftime(\'%Y-%m\') }}'
@@ -27,7 +27,7 @@ local_workflow = DAG(
     start_date = datetime(2019,1,1),
     end_date  = datetime(2020,1,1),
     catchup = True,
-    max_active_runs = 2
+    max_active_runs = 3
 )
 
 with local_workflow:
@@ -52,7 +52,7 @@ with local_workflow:
         python_callable=upload_to_gcs,
         op_kwargs={
             "bucket": BUCKET,
-            "object_name": f"{PARQUET_FILE}",
+            "object_name": f"raw/{PARQUET_FILE}",
             "local_file": f"{PATH_PARQUET_FILE}{PARQUET_FILE}",
         },
     )

@@ -23,3 +23,53 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T06:00:00+00:00
 [2022-02-02 21:28:50,696] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question3_FHV, task_id=local_to_gcs_task, execution_date=20191102T060000, start_date=20220202T212742, end_date=20220202T212850
 [2022-02-02 21:28:50,775] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-02 21:28:50,872] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-09 11:46:23,433] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.local_to_gcs_task scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-09 11:46:23,489] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.local_to_gcs_task scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-09 11:46:23,490] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 11:46:23,490] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-09 11:46:23,490] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-09 11:46:23,544] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-11-02 06:00:00+00:00
+[2022-02-09 11:46:23,554] {standard_task_runner.py:52} INFO - Started process 1266 to run task
+[2022-02-09 11:46:23,579] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Question3_FHV', 'local_to_gcs_task', 'scheduled__2019-11-02T06:00:00+00:00', '--job-id', '427', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions3.py', '--cfg-path', '/tmp/tmpha31dkez', '--error-file', '/tmp/tmpgcbg1lqw']
+[2022-02-09 11:46:23,596] {standard_task_runner.py:77} INFO - Job 427: Subtask local_to_gcs_task
+[2022-02-09 11:46:23,854] {logging_mixin.py:109} INFO - Running <TaskInstance: Question3_FHV.local_to_gcs_task scheduled__2019-11-02T06:00:00+00:00 [running]> on host c5795c3f6004
+[2022-02-09 11:46:24,023] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-09 11:46:24,082] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Question3_FHV
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T06:00:00+00:00
+[2022-02-09 11:47:00,399] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-09 11:47:00,440] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question3_FHV, task_id=local_to_gcs_task, execution_date=20191102T060000, start_date=20220209T114623, end_date=20220209T114700
+[2022-02-09 11:47:00,539] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-09 11:47:00,671] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-10 01:15:21,115] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.local_to_gcs_task scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-10 01:15:21,163] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.local_to_gcs_task scheduled__2019-11-02T06:00:00+00:00 [queued]>
+[2022-02-10 01:15:21,164] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-10 01:15:21,164] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-02-10 01:15:21,164] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-10 01:15:21,208] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2019-11-02 06:00:00+00:00
+[2022-02-10 01:15:21,214] {standard_task_runner.py:52} INFO - Started process 7551 to run task
+[2022-02-10 01:15:21,221] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Question3_FHV', 'local_to_gcs_task', 'scheduled__2019-11-02T06:00:00+00:00', '--job-id', '494', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions3.py', '--cfg-path', '/tmp/tmplshp101u', '--error-file', '/tmp/tmpma87dt_s']
+[2022-02-10 01:15:21,222] {standard_task_runner.py:77} INFO - Job 494: Subtask local_to_gcs_task
+[2022-02-10 01:15:21,400] {logging_mixin.py:109} INFO - Running <TaskInstance: Question3_FHV.local_to_gcs_task scheduled__2019-11-02T06:00:00+00:00 [running]> on host 0fd4ea805f5e
+[2022-02-10 01:15:21,528] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-10 01:15:21,588] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Question3_FHV
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2019-11-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-11-02T06:00:00+00:00
+[2022-02-10 01:16:31,334] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-10 01:16:31,367] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question3_FHV, task_id=local_to_gcs_task, execution_date=20191102T060000, start_date=20220210T011521, end_date=20220210T011631
+[2022-02-10 01:16:31,436] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-10 01:16:31,526] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
