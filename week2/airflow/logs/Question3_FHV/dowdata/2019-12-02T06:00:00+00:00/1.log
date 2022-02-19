@@ -85,3 +85,32 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-12-02T06:00:00+00:00
 [2022-02-10 01:15:46,715] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question3_FHV, task_id=dowdata, execution_date=20191202T060000, start_date=20220210T011533, end_date=20220210T011546
 [2022-02-10 01:15:46,772] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-10 01:15:46,902] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-19 01:55:25,774] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.dowdata scheduled__2019-12-02T06:00:00+00:00 [queued]>
+[2022-02-19 01:55:25,821] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: Question3_FHV.dowdata scheduled__2019-12-02T06:00:00+00:00 [queued]>
+[2022-02-19 01:55:25,822] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 01:55:25,822] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-19 01:55:25,823] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 01:55:25,863] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): dowdata> on 2019-12-02 06:00:00+00:00
+[2022-02-19 01:55:25,873] {standard_task_runner.py:52} INFO - Started process 4364 to run task
+[2022-02-19 01:55:25,881] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Question3_FHV', 'dowdata', 'scheduled__2019-12-02T06:00:00+00:00', '--job-id', '657', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions3.py', '--cfg-path', '/tmp/tmpdinblrzr', '--error-file', '/tmp/tmpy6wuqqek']
+[2022-02-19 01:55:25,883] {standard_task_runner.py:77} INFO - Job 657: Subtask dowdata
+[2022-02-19 01:55:26,071] {logging_mixin.py:109} INFO - Running <TaskInstance: Question3_FHV.dowdata scheduled__2019-12-02T06:00:00+00:00 [running]> on host 312f1fe573aa
+[2022-02-19 01:55:26,227] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-19 01:55:26,298] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=Question3_FHV
+AIRFLOW_CTX_TASK_ID=dowdata
+AIRFLOW_CTX_EXECUTION_DATE=2019-12-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2019-12-02T06:00:00+00:00
+[2022-02-19 01:55:26,301] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-19 01:55:26,302] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'curl -sSLf https://nyc-tlc.s3.amazonaws.com/trip+data/fhv_tripdata_2019-12.csv > /opt/***fhv_2019-12.csv']
+[2022-02-19 01:55:26,334] {subprocess.py:85} INFO - Output:
+[2022-02-19 01:55:39,238] {subprocess.py:93} INFO - Command exited with return code 0
+[2022-02-19 01:55:39,405] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=Question3_FHV, task_id=dowdata, execution_date=20191202T060000, start_date=20220219T015525, end_date=20220219T015539
+[2022-02-19 01:55:39,495] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-19 01:55:39,620] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

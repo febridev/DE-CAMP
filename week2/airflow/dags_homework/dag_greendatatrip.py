@@ -14,15 +14,15 @@ PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
 URL_PREFIX = 'https://s3.amazonaws.com/nyc-tlc/trip+data'
-FILE_TEMPLATE = URL_PREFIX + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
-OUTPUT_FILE_TEMPLATE = AIRFLOW_HOME + 'output_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
-PARQUET_FILE = 'output_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
+FILE_TEMPLATE = URL_PREFIX + '/green_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
+OUTPUT_FILE_TEMPLATE = AIRFLOW_HOME + 'green_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
+PARQUET_FILE = 'green_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
 PATH_PARQUET_FILE = AIRFLOW_HOME
 
-TABLE_NAME_TEMPLATE = 'yellow_taxi_{{ execution_date.strftime(\'%Y-%m\') }}'
+TABLE_NAME_TEMPLATE = 'green_taxi_{{ execution_date.strftime(\'%Y-%m\') }}'
 
 local_workflow = DAG(
-    "HomeWorkWeek2",
+    "green_data_trip",
     schedule_interval="0 6 2 * *",
     start_date = datetime(2019,1,1),
     end_date = datetime(2021,1,1),

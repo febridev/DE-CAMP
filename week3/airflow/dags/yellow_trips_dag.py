@@ -14,10 +14,10 @@ BUCKET = os.environ.get("GCP_GCS_BUCKET")
 BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'trips_data_all')
 INPUT_PART = 'raw'
 
-PARQUET_FILE = 'fhv_2019_'
+PARQUET_FILE = 'output_{{ execution_date.strftime(\'%Y-%m\') }}_'
 DATASET='parquet'
 parquet_file = '.parquet'
-TABLE_NAME_TEMPLATE = 'fhv_trips_data'
+TABLE_NAME_TEMPLATE = 'yellow_tripdata'
 
 default_args = {
     "owner": "airflow",
@@ -28,7 +28,7 @@ default_args = {
 
 
 local_workflow = DAG(
-    "homework_week3",
+    "yellow_dag",
     schedule_interval="@daily",
     default_args=default_args,
     catchup = False,
@@ -40,9 +40,9 @@ with local_workflow:
     gcs_to_gcs_task = GCSToGCSOperator(
         task_id='gcs_to_gcs_task',
         source_bucket=BUCKET,
-        source_object=f'{INPUT_PART}/fhv*',
+        source_object=f'{INPUT_PART}/output_*',
         destination_bucket=BUCKET,
-        destination_object=f'fhv_trips/fhv',
+        destination_object=f'yellow_trips/yellow',
         move_object=True
     )
     bigquery_external_table_task = BigQueryCreateExternalTableOperator(
@@ -56,7 +56,7 @@ with local_workflow:
                 "externalDataConfiguration": {
                     "autodetect": "True",
                     "sourceFormat": "PARQUET",
-                    "sourceUris": f"gs://{BUCKET}/fhv_trips/*{parquet_file}",
+                    "sourceUris": f"gs://{BUCKET}/yellow_trips/*{parquet_file}",
                 },
             },
     )

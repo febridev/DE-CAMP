@@ -23,3 +23,30 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-10-02T06:00:00+00:00
 [2022-01-30 14:56:07,330] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=HomeWorkWeek2, task_id=csv_to_parquet, execution_date=20201002T060000, start_date=20220130T145602, end_date=20220130T145607
 [2022-01-30 14:56:07,535] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-01-30 14:56:07,725] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-19 01:34:44,961] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-10-02T06:00:00+00:00 [queued]>
+[2022-02-19 01:34:45,002] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-10-02T06:00:00+00:00 [queued]>
+[2022-02-19 01:34:45,003] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 01:34:45,003] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-19 01:34:45,003] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 01:34:45,042] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): csv_to_parquet> on 2020-10-02 06:00:00+00:00
+[2022-02-19 01:34:45,048] {standard_task_runner.py:52} INFO - Started process 3208 to run task
+[2022-02-19 01:34:45,054] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'HomeWorkWeek2', 'csv_to_parquet', 'scheduled__2020-10-02T06:00:00+00:00', '--job-id', '599', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions1.py', '--cfg-path', '/tmp/tmpzbn_qpun', '--error-file', '/tmp/tmp0w8siusw']
+[2022-02-19 01:34:45,056] {standard_task_runner.py:77} INFO - Job 599: Subtask csv_to_parquet
+[2022-02-19 01:34:45,227] {logging_mixin.py:109} INFO - Running <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-10-02T06:00:00+00:00 [running]> on host 312f1fe573aa
+[2022-02-19 01:34:45,361] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-19 01:34:45,431] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=HomeWorkWeek2
+AIRFLOW_CTX_TASK_ID=csv_to_parquet
+AIRFLOW_CTX_EXECUTION_DATE=2020-10-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-10-02T06:00:00+00:00
+[2022-02-19 01:34:50,036] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-19 01:34:50,085] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=HomeWorkWeek2, task_id=csv_to_parquet, execution_date=20201002T060000, start_date=20220219T013444, end_date=20220219T013450
+[2022-02-19 01:34:50,308] {local_task_job.py:212} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2022-02-19 01:34:50,317] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 3208. PIDs of all processes in the group: [3208]
+[2022-02-19 01:34:50,318] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 3208
+[2022-02-19 01:34:50,373] {process_utils.py:70} INFO - Process psutil.Process(pid=3208, status='terminated', exitcode=0, started='01:34:44') (3208) terminated with exit code 0
