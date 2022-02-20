@@ -15,8 +15,8 @@ BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
 URL_PREFIX = 'https://s3.amazonaws.com/nyc-tlc/trip+data'
 FILE_TEMPLATE = URL_PREFIX + '/yellow_tripdata_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
-OUTPUT_FILE_TEMPLATE = AIRFLOW_HOME + 'output_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
-PARQUET_FILE = 'output_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
+OUTPUT_FILE_TEMPLATE = AIRFLOW_HOME + 'yellow_{{ execution_date.strftime(\'%Y-%m\') }}.csv'
+PARQUET_FILE = 'yellow_{{ execution_date.strftime(\'%Y-%m\') }}.parquet'
 PATH_PARQUET_FILE = AIRFLOW_HOME
 
 TABLE_NAME_TEMPLATE = 'yellow_taxi_{{ execution_date.strftime(\'%Y-%m\') }}'

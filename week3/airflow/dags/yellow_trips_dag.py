@@ -14,7 +14,7 @@ BUCKET = os.environ.get("GCP_GCS_BUCKET")
 BIGQUERY_DATASET = os.environ.get("BIGQUERY_DATASET", 'trips_data_all')
 INPUT_PART = 'raw'
 
-PARQUET_FILE = 'output_{{ execution_date.strftime(\'%Y-%m\') }}_'
+PARQUET_FILE = 'yellow_{{ execution_date.strftime(\'%Y-%m\') }}_'
 DATASET='parquet'
 parquet_file = '.parquet'
 TABLE_NAME_TEMPLATE = 'yellow_tripdata'
@@ -40,7 +40,7 @@ with local_workflow:
     gcs_to_gcs_task = GCSToGCSOperator(
         task_id='gcs_to_gcs_task',
         source_bucket=BUCKET,
-        source_object=f'{INPUT_PART}/output_*',
+        source_object=f'{INPUT_PART}/yellow_*',
         destination_bucket=BUCKET,
         destination_object=f'yellow_trips/yellow',
         move_object=True

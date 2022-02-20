@@ -48,3 +48,53 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-04-02T06:00:00+00:00
 [2022-02-19 01:31:54,655] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=HomeWorkWeek2, task_id=csv_to_parquet, execution_date=20200402T060000, start_date=20220219T013153, end_date=20220219T013154
 [2022-02-19 01:31:54,729] {local_task_job.py:154} INFO - Task exited with return code 0
 [2022-02-19 01:31:54,868] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-19 11:33:23,313] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-04-02T06:00:00+00:00 [queued]>
+[2022-02-19 11:33:23,356] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-04-02T06:00:00+00:00 [queued]>
+[2022-02-19 11:33:23,357] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 11:33:23,357] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-19 11:33:23,357] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-19 11:33:23,402] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): csv_to_parquet> on 2020-04-02 06:00:00+00:00
+[2022-02-19 11:33:23,413] {standard_task_runner.py:52} INFO - Started process 3894 to run task
+[2022-02-19 11:33:23,424] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'HomeWorkWeek2', 'csv_to_parquet', 'scheduled__2020-04-02T06:00:00+00:00', '--job-id', '945', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions1.py', '--cfg-path', '/tmp/tmp9wqs5928', '--error-file', '/tmp/tmprljxh39l']
+[2022-02-19 11:33:23,426] {standard_task_runner.py:77} INFO - Job 945: Subtask csv_to_parquet
+[2022-02-19 11:33:23,673] {logging_mixin.py:109} INFO - Running <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-04-02T06:00:00+00:00 [running]> on host f81f14254480
+[2022-02-19 11:33:23,831] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-19 11:33:23,907] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=HomeWorkWeek2
+AIRFLOW_CTX_TASK_ID=csv_to_parquet
+AIRFLOW_CTX_EXECUTION_DATE=2020-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-04-02T06:00:00+00:00
+[2022-02-19 11:33:24,812] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-19 11:33:24,855] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=HomeWorkWeek2, task_id=csv_to_parquet, execution_date=20200402T060000, start_date=20220219T113323, end_date=20220219T113324
+[2022-02-19 11:33:24,955] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-19 11:33:25,111] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-02-20 00:17:28,313] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-04-02T06:00:00+00:00 [queued]>
+[2022-02-20 00:17:28,352] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-04-02T06:00:00+00:00 [queued]>
+[2022-02-20 00:17:28,353] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 00:17:28,355] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-02-20 00:17:28,355] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-20 00:17:28,401] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): csv_to_parquet> on 2020-04-02 06:00:00+00:00
+[2022-02-20 00:17:28,409] {standard_task_runner.py:52} INFO - Started process 23895 to run task
+[2022-02-20 00:17:28,416] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'HomeWorkWeek2', 'csv_to_parquet', 'scheduled__2020-04-02T06:00:00+00:00', '--job-id', '1109', '--raw', '--subdir', 'DAGS_FOLDER/dag_questions1.py', '--cfg-path', '/tmp/tmpi610zwd0', '--error-file', '/tmp/tmpa6az0vtw']
+[2022-02-20 00:17:28,419] {standard_task_runner.py:77} INFO - Job 1109: Subtask csv_to_parquet
+[2022-02-20 00:17:28,602] {logging_mixin.py:109} INFO - Running <TaskInstance: HomeWorkWeek2.csv_to_parquet scheduled__2020-04-02T06:00:00+00:00 [running]> on host d9977d7db207
+[2022-02-20 00:17:28,789] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:152: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2022-02-20 00:17:28,854] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=HomeWorkWeek2
+AIRFLOW_CTX_TASK_ID=csv_to_parquet
+AIRFLOW_CTX_EXECUTION_DATE=2020-04-02T06:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-04-02T06:00:00+00:00
+[2022-02-20 00:17:29,679] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-20 00:17:29,712] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=HomeWorkWeek2, task_id=csv_to_parquet, execution_date=20200402T060000, start_date=20220220T001728, end_date=20220220T001729
+[2022-02-20 00:17:29,813] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-20 00:17:29,939] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check
