@@ -10,3 +10,9 @@ This Repo For Home Work And Exercise
 
 ## Week 3
  - [Homework](https://github.com/febridev/DE-CAMP/tree/master/week3/homework)
+
+## Week 4
+ - [Homework](https://github.com/febridev/DE-CAMP/tree/master/week4)
+
+## Week 5
+ - [Homework](https://github.com/febridev/DE-CAMP/tree/master/week5/code)
